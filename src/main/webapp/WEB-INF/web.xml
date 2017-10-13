@@ -1,0 +1,32 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+         version="2.4">
+
+
+
+
+    <servlet>
+        <servlet-name>CategoryDishServlet</servlet-name>
+        <servlet-class>ru.itis.servlets.CategoryDishServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CategoryDishServlet</servlet-name>
+        <url-pattern>/categoryDishes</url-pattern>
+    </servlet-mapping>
+
+    <filter>
+        <filter-name>utf8filter</filter-name>
+        <filter-class>ru.itis.filters.UtfFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>utf8filter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <listener>
+        <listener-class>ru.itis.listeners.ServletWithSpringListener</listener-class>
+    </listener>
+</web-app>

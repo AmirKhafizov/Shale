@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ShaleResturant:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="ShaleResturant-0.1.war">
+      <element id="artifact" artifact-name="ShaleResturant:war exploded" />
+    </root>
+  </artifact>
+</component>

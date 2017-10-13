@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="postgres@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.4">
+    <root id="1"/>
+    <database id="2" parent="1" name="postgres">
+      <ObjectId>12938</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <schema id="3" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <IntrospectionTimestamp>2017-10-13.15:21:39.230</IntrospectionTimestamp>
+      <IntrospectionStateNumber>562</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="4" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="5" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="6" parent="2" name="pg_temp_1">
+      <ObjectId>11736</ObjectId>
+    </schema>
+    <schema id="7" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11737</ObjectId>
+    </schema>
+    <schema id="8" parent="2" name="information_schema">
+      <ObjectId>12648</ObjectId>
+    </schema>
+    <sequence id="9" parent="3" name="category_dish_id _seq">
+      <ObjectId>16418</ObjectId>
+      <StateNumber>560</StateNumber>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="10" parent="3" name="dish_id_seq">
+      <ObjectId>16408</ObjectId>
+      <StateNumber>559</StateNumber>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="11" parent="3" name="user_id_seq">
+      <ObjectId>16393</ObjectId>
+      <StateNumber>557</StateNumber>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <table id="12" parent="3" name="category_dish">
+      <ObjectId>16420</ObjectId>
+      <StateNumber>562</StateNumber>
+    </table>
+    <table id="13" parent="3" name="dish">
+      <ObjectId>16410</ObjectId>
+      <StateNumber>562</StateNumber>
+    </table>
+    <table id="14" parent="3" name="user">
+      <ObjectId>16395</ObjectId>
+      <StateNumber>561</StateNumber>
+    </table>
+    <table id="15" parent="3" name="user_information">
+      <ObjectId>16405</ObjectId>
+      <StateNumber>561</StateNumber>
+    </table>
+    <column id="16" parent="12" name="id ">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>560</StateNumber>
+      <SequenceName>category_dish_id _seq</SequenceName>
+      <DefaultExpression>nextval(&apos;&quot;category_dish_id _seq&quot;&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="17" parent="12" name="name">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <StateNumber>560</StateNumber>
+    </column>
+    <index id="18" parent="12" name="category_dish_pk">
+      <ObjectId>16424</ObjectId>
+      <ColNames>id </ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="19" parent="12" name="category_dish_name_key">
+      <ObjectId>16426</ObjectId>
+      <ColNames>name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="20" parent="12" name="category_dish_pk">
+      <ObjectId>16425</ObjectId>
+      <ColNames>id </ColNames>
+      <UnderlyingIndexName>category_dish_pk</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="21" parent="12" name="category_dish_name_key">
+      <ObjectId>16427</ObjectId>
+      <ColNames>name</ColNames>
+      <UnderlyingIndexName>category_dish_name_key</UnderlyingIndexName>
+    </key>
+    <column id="22" parent="13" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>559</StateNumber>
+      <SequenceName>dish_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;dish_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="23" parent="13" name="name">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <StateNumber>559</StateNumber>
+    </column>
+    <column id="24" parent="13" name="description">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>559</StateNumber>
+    </column>
+    <column id="25" parent="13" name="category_dish_id">
+      <Position>4</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>559</StateNumber>
+    </column>
+    <index id="26" parent="13" name="dish_pk">
+      <ObjectId>16414</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="27" parent="13" name="dish_name_key">
+      <ObjectId>16416</ObjectId>
+      <ColNames>name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="28" parent="13" name="dish_pk">
+      <ObjectId>16415</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>dish_pk</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="29" parent="13" name="dish_name_key">
+      <ObjectId>16417</ObjectId>
+      <ColNames>name</ColNames>
+      <UnderlyingIndexName>dish_name_key</UnderlyingIndexName>
+    </key>
+    <foreign-key id="30" parent="13" name="dish_fk0">
+      <ObjectId>16433</ObjectId>
+      <ColNames>category_dish_id</ColNames>
+      <RefTableId>16420</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>category_dish</RefTableName>
+      <RefKeyName>category_dish_pk</RefKeyName>
+      <RefColNames>id </RefColNames>
+    </foreign-key>
+    <column id="31" parent="14" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>557</StateNumber>
+      <SequenceName>user_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;user_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="32" parent="14" name="login">
+      <Position>2</Position>
+      <DataType>varchar(16)|0</DataType>
+      <StateNumber>557</StateNumber>
+    </column>
+    <column id="33" parent="14" name="password">
+      <Position>3</Position>
+      <DataType>varchar(16)|0</DataType>
+      <StateNumber>557</StateNumber>
+    </column>
+    <index id="34" parent="14" name="user_pk">
+      <ObjectId>16399</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="35" parent="14" name="user_login_key">
+      <ObjectId>16401</ObjectId>
+      <ColNames>login</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="36" parent="14" name="user_password_key">
+      <ObjectId>16403</ObjectId>
+      <ColNames>password</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="37" parent="14" name="user_pk">
+      <ObjectId>16400</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>user_pk</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="38" parent="14" name="user_login_key">
+      <ObjectId>16402</ObjectId>
+      <ColNames>login</ColNames>
+      <UnderlyingIndexName>user_login_key</UnderlyingIndexName>
+    </key>
+    <key id="39" parent="14" name="user_password_key">
+      <ObjectId>16404</ObjectId>
+      <ColNames>password</ColNames>
+      <UnderlyingIndexName>user_password_key</UnderlyingIndexName>
+    </key>
+    <column id="40" parent="15" name="name">
+      <Position>1</Position>
+      <DataType>varchar(16)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>558</StateNumber>
+    </column>
+    <column id="41" parent="15" name="surname">
+      <Position>2</Position>
+      <DataType>varchar(16)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>558</StateNumber>
+    </column>
+    <column id="42" parent="15" name="user_id">
+      <Position>3</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>558</StateNumber>
+    </column>
+    <foreign-key id="43" parent="15" name="user_information_fk0">
+      <ObjectId>16428</ObjectId>
+      <ColNames>user_id</ColNames>
+      <RefTableId>16395</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user</RefTableName>
+      <RefKeyName>user_pk</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>
