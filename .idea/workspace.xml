@@ -1,7 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5443a313-8e61-4b95-a7f3-3bd858c56bb6" name="Default" comment="" />
+    <list default="true" id="5443a313-8e61-4b95-a7f3-3bd858c56bb6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/2faf93db-5e90-4897-b2b9-da9896547a6a/_metadata_/metadata" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/2faf93db-5e90-4897-b2b9-da9896547a6a/_metadata_/metadata.keystream" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/2faf93db-5e90-4897-b2b9-da9896547a6a/_metadata_/metadata.keystream.len" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/2faf93db-5e90-4897-b2b9-da9896547a6a/_metadata_/metadata.len" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/2faf93db-5e90-4897-b2b9-da9896547a6a/_metadata_/metadata.values.at" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/2faf93db-5e90-4897-b2b9-da9896547a6a/_metadata_/metadata_i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/2faf93db-5e90-4897-b2b9-da9896547a6a/_metadata_/metadata_i.len" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1.war" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/classes/ru/itis/dao/CrudDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/classes/ru/itis/dao/categoryDishDao/CategoryDishDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/classes/ru/itis/dao/categoryDishDao/CategoryDishJdbcTemlateImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/classes/ru/itis/dao/dishDao/DishDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/classes/ru/itis/dao/dishDao/DishDaoJdbcTemplateImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/classes/ru/itis/dao/userDao/UserDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/classes/ru/itis/dao/userDao/UserDaoJdbcTemplateImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/classes/ru/itis/dao/userInformationDao/UserInformationDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/classes/ru/itis/dao/userInformationDao/UserInformationDaoJdbcTemplateImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/classes/ru/itis/filters/UtfFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/classes/ru/itis/listeners/ServletWithSpringListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/classes/ru/itis/models/CategoryDish$CategoryDishBuilder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/classes/ru/itis/models/CategoryDish.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/classes/ru/itis/models/Dish$DishBuilder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/classes/ru/itis/models/Dish.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/classes/ru/itis/models/User$UserBuilder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/classes/ru/itis/models/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/classes/ru/itis/models/UserInformation$UserInformationBuilder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/classes/ru/itis/models/UserInformation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/classes/ru/itis/servlets/CategoryDishServlet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/lib/animal-sniffer-annotations-1.14.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/lib/commons-logging-1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/lib/error_prone_annotations-2.0.18.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/lib/guava-23.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/lib/j2objc-annotations-1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/lib/jsr305-1.3.9.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/lib/jstl-1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/lib/postgresql-42.1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/lib/servlet-api-2.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/lib/spring-aop-4.3.11.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/lib/spring-beans-4.3.11.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/lib/spring-context-4.3.11.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/lib/spring-core-4.3.11.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/lib/spring-expression-4.3.11.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/lib/spring-jdbc-4.3.11.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/lib/spring-tx-4.3.11.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ru/itis/dao/CrudDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ru/itis/dao/categoryDishDao/CategoryDishDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ru/itis/dao/categoryDishDao/CategoryDishJdbcTemlateImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ru/itis/dao/dishDao/DishDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ru/itis/dao/dishDao/DishDaoJdbcTemplateImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ru/itis/dao/userDao/UserDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ru/itis/dao/userDao/UserDaoJdbcTemplateImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ru/itis/dao/userInformationDao/UserInformationDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ru/itis/dao/userInformationDao/UserInformationDaoJdbcTemplateImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ru/itis/filters/UtfFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ru/itis/listeners/ServletWithSpringListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ru/itis/models/CategoryDish$CategoryDishBuilder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ru/itis/models/CategoryDish.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ru/itis/models/Dish$DishBuilder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ru/itis/models/Dish.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ru/itis/models/User$UserBuilder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ru/itis/models/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ru/itis/models/UserInformation$UserInformationBuilder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ru/itis/models/UserInformation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ru/itis/servlets/CategoryDishServlet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ShaleResturant_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ShaleResturant_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/2faf93db-5e90-4897-b2b9-da9896547a6a.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/2faf93db-5e90-4897-b2b9-da9896547a6a/storage.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_11_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_11_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_11_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_11_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_11_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_11_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_11_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ShaleResturant.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/dao/CrudDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/dao/categoryDishDao/CategoryDishDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/dao/categoryDishDao/CategoryDishJdbcTemlateImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/dao/dishDao/DishDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/dao/dishDao/DishDaoJdbcTemplateImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/dao/userDao/UserDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/dao/userDao/UserDaoJdbcTemplateImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/dao/userInformationDao/UserInformationDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/dao/userInformationDao/UserInformationDaoJdbcTemplateImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/filters/UtfFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/listeners/ServletWithSpringListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/models/CategoryDish.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/models/Dish.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/models/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/models/UserInformation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/servlets/CategoryDishServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/ru.itis.context/application-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/categoryDishes.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/classes/ru.itis.context/application-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/jsp/categoryDishes.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ShaleResturant-0.1/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ru.itis.context/application-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -137,6 +259,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -193,12 +318,13 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="108" />
     <option name="y" value="381" />
     <option name="width" value="1244" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -567,7 +693,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -579,7 +705,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9607201" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
